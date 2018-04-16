@@ -1,0 +1,6 @@
+/* pages/joke/page.wxss */
+
+.text{
+  display: flex;
+  margin: 10px;
+}

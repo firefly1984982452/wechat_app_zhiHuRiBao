@@ -1,0 +1,9 @@
+<!--pages/joke/page.wxml-->
+<view class="container">  
+    <view wx:key="{{item.id}}" wx:for="{{list}}" class="item">
+    <navigator url="/pages/detail/detail?detailId={{item.news_id}}">
+        <image class="image" src='{{item.thumbnail}}'></image>
+        <view class='text' class='source'>{{item.title}}</view>
+       </navigator>
+    </view>
+</view>

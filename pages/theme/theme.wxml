@@ -1,0 +1,11 @@
+<!--pages/theme/theme.wxml-->
+<view>
+  <view class="container">
+    <view wx:key="{{item.id}}" class="item" wx:for="{{list}}">
+      <navigator url="detail?goods_id={{item.id}}">
+          <image class="image" src='{{item.thumbnail}}'></image>
+          <view class="name">{{item.name}}</view>
+      </navigator>
+    </view>
+  </view>
+</view>

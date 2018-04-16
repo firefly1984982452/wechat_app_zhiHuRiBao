@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/joke/page",
+    "pages/all/all",
+    "pages/theme/theme",
+    "pages/theme/detail",
+    "pages/detail/detail",
+    "pages/all/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f7b2bb",
+    "navigationBarTitleText": "知乎日报",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#111",
+    "selectedColor": "#1E8AE8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/images/home-select.png",
+        "iconPath": "pages/images/home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/images/smile-select.png",
+        "iconPath": "pages/images/smile.png",
+        "pagePath": "pages/joke/page",
+        "text": "最热"
+      },
+      {
+        "selectedIconPath": "pages/images/theme-select.png",
+        "iconPath": "pages/images/theme.png",
+        "pagePath": "pages/theme/theme",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "pages/images/more-select.png",
+        "iconPath": "pages/images/more.png",
+        "pagePath": "pages/all/all",
+        "text": "全部"
+      }
+    ]
+  }
+}

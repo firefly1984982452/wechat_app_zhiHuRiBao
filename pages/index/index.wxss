@@ -1,0 +1,58 @@
+/**index.wxss**/
+
+.item {
+  width: 365rpx;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item image {
+  width: 330rpx;
+  height: 330rpx;
+  display: flex;
+  align-self: center;
+}
+
+.item .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.item .title {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  height: 40rpx;
+  font-size: 13px;
+}
+
+.swiper {
+  height: 300rpx;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-title {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  justify-content: center;
+  color: #fff;
+  margin-top: -100rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}

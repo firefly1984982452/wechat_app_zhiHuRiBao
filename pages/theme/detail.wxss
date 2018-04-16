@@ -1,0 +1,17 @@
+/* pages/theme/detail.wxss */
+.item{
+
+  width: 365rpx;
+  border: 1px solid #f7b2bb;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  width: 350rpx;
+  height: 300rpx;
+  display: flex;
+  align-self: center;
+}

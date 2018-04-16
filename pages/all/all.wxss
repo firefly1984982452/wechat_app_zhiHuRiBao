@@ -1,0 +1,28 @@
+/* pages/all/all.wxss */
+.item{
+  width: 365rpx;
+  border: 1px solid #f7b2bb;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.item image {
+  width: 330rpx;
+  height: 330rpx;
+  display: flex;
+  align-self: center;
+}
+.item .text{
+  display: flex;
+  flex-direction: column;
+}
+.item .title{
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  height: 40rpx;
+  font-size: 13px;
+}

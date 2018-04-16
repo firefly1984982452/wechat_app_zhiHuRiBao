@@ -1,0 +1,3 @@
+<view>
+  <detail detailId="{{detailId}}"></detail>
+</view>

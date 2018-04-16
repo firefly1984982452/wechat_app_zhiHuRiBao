@@ -1,0 +1,5 @@
+/* pages/theme/theme.wxss */
+.name{
+  display: flex;
+  justify-content: center;
+}
