@@ -2,7 +2,7 @@
 <view>
   <view class="container">
     <view wx:key="{{item.id}}" class="item" wx:for="{{list}}">
-      <navigator url="/pages/detail/detail?detailId={{item.id}}">
+      <navigator url="detail?detailId={{item.id}}">
         <image src='{{item.thumbnail}}'></image>
         <view class="text">
         <text>{{item.name}}</text>
